@@ -26,7 +26,7 @@ Some introtext to overview [link](http://www.martinsundvall.se).
 - [math + number + string + array + object APIs](#math--number--string--array--object-apis)
 - [binary and octal literals](#binary-and-octal-literals)
 - [reflect api](#reflect-api)
-- [tail calls](#tail-calls)
+- [gulpfile](#gulpfile)
 - [test link](#test-link)
 
 ## ECMAScript 6 Features
@@ -126,6 +126,8 @@ GET`http://foo.org/bar?a=${a}&b=${b}
     { "foo": ${foo},
       "bar": ${bar}}`(myOnReadyStateChangeHandler);
 ```
+### gulpfile
+asdöflkjasdf lökj klj asdf ök kjl öjklasdf asdf ölkjasdf kjlö jklö jkl asdf ölkj
 
 ### Template Strings
 Template strings provide syntactic sugar for constructing strings.  This is similar to string interpolation features in Perl, Python and more.  Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
@@ -149,4 +151,3 @@ GET`http://foo.org/bar?a=${a}&b=${b}
     { "foo": ${foo},
       "bar": ${bar}}`(myOnReadyStateChangeHandler);
 ```
-.
